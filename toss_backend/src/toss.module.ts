@@ -38,11 +38,11 @@ import { join } from 'path';
 @Module({
   imports: [OfficerModule, OwnerModule, CopsModule, AdminModule , TypeOrmModule.forRoot(
     { type: 'postgres',
-     url: 'postgres://smcwtqlu:plw0eRd8pKlWDQNLTEquewoFExGj8WpU@topsy.db.elephantsql.com/smcwtqlu',
+     host: 'localhost',
      port: 5432,
-     username: 'smcwtqlu',
-     password: 'plw0eRd8pKlWDQNLTEquewoFExGj8WpU',
-     database: 'toss',
+     username: 'postgres',
+     password: '1234',
+     database: 'TOSS',
      autoLoadEntities: true,
      synchronize: true,
    }
@@ -71,10 +71,10 @@ import { join } from 'path';
                },
               }
   }),  
-  // ServeStaticModule.forRoot({
-  //   rootPath: join(__dirname, '..', '../public'), // added ../ to get one folder back
-  //   serveRoot: '/public/' //last slash was important
-  // }),
+  ServeStaticModule.forRoot({
+    rootPath: join(__dirname, '..', '../public'), // added ../ to get one folder back
+    serveRoot: '/public/' //last slash was important
+  }),
   ],
  
   controllers: [TossController],
