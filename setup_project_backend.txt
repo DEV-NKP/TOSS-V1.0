@@ -1,0 +1,35 @@
+-> Create a folder name "WEB PROJECT"
+-> Call cmd from that folder
+-> Run the codes
+
+npm i -g @nestjs/cli
+nest new TOSS
+
+
+npm i --save class-validator class-transformer
+
+-> for other functions:
+npm install ip
+
+
+-> install bcrypt for hasing
+npm i bcrypt
+npm i -D @types/bcrypt
+
+-> install express for session
+npm i express-session
+npm i -D @types/express-session
+
+-> install SMTP for mailer
+npm install --save @nestjs-modules/mailer nodemailer
+
+-> install multer for profile picture
+npm install -D @types/multer
+
+-> install serve static
+npm install --save @nestjs/serve-static
+
+-> enable cors
+npm install --save @nestjs/platform-express cors cookie-parser
+
+npm install netlify-cli

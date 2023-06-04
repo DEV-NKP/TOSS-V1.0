@@ -1,0 +1,129 @@
+.team{
+    padding:0;
+    top:-20px;
+    text-decoration: none;
+    position: relative;
+    width: 100%;
+    height:700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+.center{
+    margin-bottom: 40px;
+
+}
+.team_content{
+    width: 100%;
+    max-width: 1600px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,auto));
+    align-items: center;
+    gap:2rem;
+    text-align: center;
+    margin-top: 4rem;
+
+
+}
+.img_content{
+    padding:15% 15% 0 15%;
+}
+.img{
+    object-fit: cover;
+    position: relative;
+    max-width: 95%;
+    max-height: 220px;
+	min-width: 95%;
+    min-height: 220px;
+    top:-120px;
+    margin:0 0 15px 2%;
+    border-radius: 10px;
+    box-shadow:0 5px 20px rgba(0,0,0,1,2);
+
+}
+.up_rec{
+    position: relative;
+    top:-120px;
+    width:100%;
+    height:auto;
+    margin: 15px 0 15px 0;
+    border: 2px solid #b49967bd ;
+}
+.text1{
+    color:#cfcbcb;
+    font-size: 28px;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.text2{
+    color:#60cdb0   ;
+    font-size: 46px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.box{
+    height:510px;
+    max-width:360px;
+    border: 1px solid transparent;
+    border-image: repeating-linear-gradient(140deg,#0b6075d7 ,#932bb38e );
+    border-image-slice: 1;
+    box-shadow: 0 10px 30px rgba(9, 92, 67, 0.308);
+
+    border-radius: 2px;
+    transition:all .4s ease;
+   
+    
+}
+.box:hover{
+  
+    transform:translateY(-30px);
+    cursor:pointer;
+}
+.text3{
+    position: relative;
+    top:-120px;
+    color:#fff;
+    font-size: 23px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.text4{
+    position: relative;
+    top:-90px;
+    color:#aaa9a9;
+    font-size: 14px;
+    font-weight: 350;
+    margin-bottom: 8px;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+
+}
+.icon{
+   text-decoration: none;
+    display: inline-block;
+    color:#79f5e4d2;
+    margin:0px 10px 0 10px;
+    font-size: 20px;
+
+}
+
+.icon:hover{
+    font-size: 20px;
+    transform:scale(1.2);    
+    color:#ab7ee6f1;
+
+}
+.team_icon_social_div{
+    position: relative;
+    top:-50px;
+    width:100%;
+
+}

@@ -1,0 +1,105 @@
+    .toss_about_main_div1{
+        width: 80%;
+        margin-left: 10%;
+        
+    }
+    .toss_about_main{
+        text-align: justify;
+        margin: 40px 100px 0 0;
+        font-size: 30px;
+        color: #7bc0abce;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+
+    .toss_about_main_span{
+        color: #dd3030d6;
+    }
+
+    .sub1{
+        text-align: justify;
+        font-size: 20px;
+        color: #76898a;
+        padding-top: 160px;
+        padding-bottom: 60px;
+        letter-spacing: 1px;
+    }
+
+    .sub2{
+        font-size: 24px;
+        color: #c7c9c9;
+        letter-spacing: 1px;
+        text-align: center;
+        font-weight: bold;
+        padding: 0 0 20px 0;
+    }
+
+
+    .toss_about_hr{
+        border: none;
+        height: 1px;
+        background-color: #69cece94;
+        width: 50%;
+        margin-top: 10px;
+    }
+.toss_main_cards{
+   width: 90%;
+   margin: 0 0 30px 5%;
+}
+    .toss_about_div_cards{
+        position: relative;
+        outline: none;      
+        transition: all 0.7s ;
+        background-color: #164a5762;
+        border: none;
+        margin: 0 4% 10px 6%;
+        width: 90%;
+        border-radius: 5px;
+    }
+    
+.toss_about_div_cards::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    color:#0b442c;
+    background:  linear-gradient(to right, #3070683f, #0b656b54);
+    border: 1px solid #217388;
+    z-index: -1;
+    transition: transform .6s ease;
+    transform: scaleY(0);
+    transform-origin: bottom right;
+  }
+  
+  .toss_about_div_cards:hover::before {
+    color:#0b442c;
+    transform: scaleY(1);
+    transform-origin: top left;
+  }
+ 
+
+    .toss_about_card_icon{
+        color: #ffffff;
+        margin-top: 20px;
+        height: 30px;
+    }
+
+    .toss_about_card_title{
+        color: #60cdb0;
+        margin-top: 10px;
+        font-size: 22px;
+    }
+
+    .toss_about_card_description{
+        color: #a5a5a58e;
+        font-weight: 400;
+      
+    }
+
+    .toss_about_card_line{
+        border: none;
+        height: 1px;
+        background-color: #69cece94;
+        width: 90%;
+        margin: 20px 0 0 5%;
+    }

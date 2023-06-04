@@ -1,0 +1,131 @@
+/* 
+
+.toss_table_head{
+    background-image: linear-gradient(to right, #1b8056b7 , #21cea2cc);
+}
+
+.toss_table_full{
+    width: 100%;
+}
+
+.toss_table_data td:nth-child(even){
+    background-color: #34dec249;
+    color: #88cdd8;
+    font-weight: 400;
+    font-size: 16px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.toss_table_data td:nth-child(odd){
+    background-color: #1c99993c;
+    color: #64dbbf;
+    font-weight: 400;
+    font-size: 16px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.toss_table_data td:nth-child(odd):hover{
+    border: #88cdd8;
+} */
+
+.toss_table_full_container_div{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 30px;
+   
+}
+
+
+
+.toss_table_search{
+    margin: auto;
+}
+.toss_table_full {
+	width: 100%;
+	color: aliceblue;
+      border-collapse: separate;
+      border-spacing: 0 20px; 
+	  text-align: center;
+	  
+    }
+	.toss_table_full thead tr {
+		background-color: #075353c9;
+		box-shadow: 0 2px 1px transparent;
+    }
+	.toss_table_full td {
+	  	background: rgba(255, 255, 255, 0.122);
+		border-radius: 0px;
+		box-shadow: 0 1px 1px #5ED1D1;
+    }
+
+	.toss_table_full thead tr th {
+      padding: 10px;
+      border: 1px solid transparent;
+      color:gainsboro;
+	  background-color: rgba(255,255,255,0.3);
+    }
+	.toss_table_full thead tr th:first-child{
+		border-top-left-radius: 5px;
+    
+	}.toss_table_full thead tr th:last-child{
+		
+    border-top-right-radius: 5px;
+	}
+	.toss_table_full td:first-child{
+		border-top-left-radius: 5px;
+		border-bottom-left-radius: 5px;
+    
+	}.toss_table_full td:last-child{
+	 border-bottom-right-radius: 5px;	
+    border-top-right-radius: 5px;
+	}
+    .toss_table_full td {
+      padding: 10px;
+      border: 1px solid transparent;
+	  
+    }
+	.toss_table_full thead tr:hover {
+     color: aliceblue;
+    }
+     .toss_table_full tr:hover {
+     color: #5ED1D1;
+    }
+
+
+
+/* For account View */
+
+.account_div label{
+    color:rgb(59, 173, 135);
+    font-weight: bold;
+    font-size: 22px;
+    margin-left: 5%;
+}
+.account_div_icon{
+    color:rgb(59, 173, 135);
+    font-weight: bold;
+    font-size: 22px;
+    
+}
+
+.account_div p{
+    color:rgb(151, 154, 153);
+    font-weight: bold;
+    margin-left: 12%;
+}
+
+
+.account_div{
+    border: 1px dashed #5ED1D1;
+    border-radius: 10px;
+    padding: 5%;
+    margin-bottom: 5%;
+}
+
+
+
+
+
+
+
+
+

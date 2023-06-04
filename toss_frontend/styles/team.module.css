@@ -1,0 +1,119 @@
+.team{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    position: relative;
+    width: 100%;
+    height:700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+.center{
+    margin-bottom: 60px;
+
+}
+.team-content{
+    width: 100%;
+    max-width: 1600px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,auto));
+    align-items: center;
+    gap:2rem;
+    text-align: center;
+    margin-top: 4rem;
+
+
+}
+.img-content{
+    padding:15% 15% 0 15%;
+}
+.img{
+    position: relative;
+    width:100%;
+    height:auto;
+    top:-120px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow:0 5px 20px rgba(0,0,0,1,2);
+
+}
+.up-rec{
+    position: relative;
+    top:-120px;
+    width:100%;
+    height:auto;
+    margin: 15px 0 15px 0;
+    border: 2px solid #b49967bd ;
+}
+.text1{
+    color:#fff;
+    font-size: 2rem;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.text2{
+    color:#96e9ded8   ;
+    font-size: 52px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.box{
+    height:500px;
+    border-bottom: 2px solid #b30df5d0;
+    background:#b976e62f;    ;
+    border-radius: 2px;
+    transition:all .4s ease;
+}
+.box:hover{
+    transform:translateY(-20px);
+    cursor:pointer;
+}
+.text3{
+    position: relative;
+    top:-120px;
+    color:#fff;
+    font-size: 23px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.text4{
+    position: relative;
+    top:-120px;
+    color:#aaa9a9;
+    font-size: 16px;
+    font-weight: 250;
+    margin-bottom: 8px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 2px;
+
+}
+.icon{
+   
+    display: inline-block;
+    color:#79f5e4d2;
+    margin:0px 10px 0 10px;
+
+}
+
+.icon:hover{
+    font-size: 20px;
+    transform:scale(1.2);    
+    color:#ab7ee6f1;
+
+}
+.team-icon-social-div{
+    position: relative;
+    top:-80px;
+    width:100%;
+
+}

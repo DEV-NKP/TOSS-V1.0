@@ -1,0 +1,146 @@
+.owner_heading_label{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#3fa4b5;
+    font-size: 20px;
+    border-bottom: 1px dashed rgb(44, 165, 139);
+    align-content: center;
+    margin-top: 30px;
+    margin-left: 35%;
+    display: flex;
+    width: 90%;
+
+    width: fit-content;
+    font-weight: bold;
+
+}
+
+.main_content{
+    width:100%;
+    height:90vh;
+    background-image: linear-gradient(150deg, #05272548 0%, #0c3d3a48 45%, #03262742 100%);
+}
+.owner_profile_main{
+    width: 90%;
+    margin:60px 0 0 5%;
+    background-image: linear-gradient(180deg,#0f554a54 20%,#15063352 90%);
+    border:#0c684fa8 3px solid ;
+    border-radius: 20px;
+}
+.owner_profile_img{
+    width:70%;
+}
+.profile_icon{
+    margin:0px 2px 0 8px;
+    font-size: 16px;
+
+}
+
+  .owner_profile_lebel{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#b6b6b6;
+    border-bottom: 1px solid #15a17ee0;
+
+
+  }
+  .owner_profile_data{
+    font-size: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#127e63;
+    background: transparent;
+   
+    text-align: left;
+
+  }
+  .owner_profile_section
+  {
+    margin: 40px 0 0 15%;
+  }
+  
+  .profile_bottom_button_area::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    border-radius: 2px;
+    color:#0b442c;
+    background:  linear-gradient(to right, #73d8ac69, #055c4654);
+    border: 1px solid #17a783c4;
+    z-index: -1;
+    transition: transform .4s ease;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+  }
+  
+  .profile_bottom_button_area:hover::before {
+    color:#0b442c;
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+    
+  .profile_bottom_button_area{
+    width:70%;
+    margin: 5% 0 0 4%;
+    position: relative;
+    color:#21cea2cc;
+    outline: none;
+    background: transparent;
+    border: 1px solid #15a17ee0;
+    border-radius: 2px;
+
+    cursor: pointer;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+  
+    
+    transition: all 0.7s ;
+  
+  
+  }
+
+  .profile_icon{
+    margin:0px 2px 0 8px;
+    font-size: 16px;
+
+}
+
+.button_area{
+  width:70%;
+  margin: 5% 0 0 4%;
+  position: relative;
+  color:#21cea2cc;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+  border-bottom: 1px solid #21cea2cc;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+  
+  transition: all 0.7s ;
+
+
+}
+
+
+.button_area::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  inset: 0 0 0 0;
+  border-radius: 2px;
+  color:#0b442c;
+  background:  linear-gradient(to right, #73d8ac69, #055c4654);
+  border: 1px solid #17a783c4;
+  z-index: -1;
+  transition: transform .4s ease;
+  transform: scaleY(0);
+  transform-origin: top ;
+}
+
+.button_area:hover::before {
+  color:#0b442c;
+  transform: scaleY(1);
+  transform-origin: bottom;
+}

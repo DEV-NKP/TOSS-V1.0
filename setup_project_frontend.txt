@@ -1,0 +1,22 @@
+-> create and install next js project
+npx create-next-app@latest
+-> enter project name
+-> import alias @/*
+
+->install axios
+npm install axios
+
+-> install tailwindcss
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+->install flowbite
+npm install flowbite flowbite-react --save
+
+->use form hook install
+npm install react-hook-form
+
+-> excell file
+npm install xlsx
+
+

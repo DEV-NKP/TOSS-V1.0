@@ -1,0 +1,256 @@
+
+.toss_form_txt1{
+  color: #d46565e0;
+  font-size: 30px;
+  text-align: center;
+  font-weight:500;
+}
+
+.toss_text_box_design1{
+font-size: 16px;
+color: rgba(230, 221, 221, 0.938);
+border-bottom: 2px solid #c05c5ce0;
+}
+.toss_text_box_design1:invalid{
+border-bottom: 2px solid #b84e4ece;
+}
+.toss_text_box_design1:valid{
+border-bottom: 2px solid #c05c5ce3;
+}
+
+.toss_text_box_label_design1{
+  color: #d6d6d6de;
+}
+.toss_text_box_design1:focus ~ .toss_text_box_label_design1{
+color: #be4a4ade;
+}
+
+.toss_login_icon{
+  margin-right: 5px;
+}
+
+.toss_login_image{
+  align-items: center;
+  margin: 20px 20px 0px 10%;
+  width:75%;
+  height:auto;
+}
+
+
+.toss_text_box_error1{
+  color: #bb4343dc;
+}
+
+
+.toss_text_area_design1{
+  resize: none;
+  font-size: 16px;
+  color: rgb(214, 220, 224);
+  border-bottom: 2px solid #d46565e0;
+  }
+  .toss_text_area_design1:invalid{
+  border-bottom: 2px solid #b14848e0;
+  }
+  .toss_text_area_design1:valid{
+  border-bottom: 2px solid #d46565e0;
+  }
+  
+  .toss_text_area_design1:focus ~ .toss_text_box_label_design1{
+  color: #d46565e0;
+  }
+  
+
+
+
+.contact{
+  width: 30%;
+  margin-top:60px;
+  margin-left: 27%;
+  position: absolute;
+  padding: 30px 4% 30px 4%;
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+
+  border: 1px solid transparent;
+  border-image: linear-gradient(140deg,#2290acd7 ,#ac4c4cd2 );
+  border-image-slice: 1;
+  box-shadow: 0 10px 30px rgba(168, 46, 46, 0.397);
+
+}
+
+.center{
+  margin-bottom: 60px;
+
+}
+.text{
+  margin:20px 20px 10px 0px;
+}
+.text1{
+  margin:20px 20px 30px 30px;
+  color:#cc4e5c;
+  font-size: 50px;
+  text-align: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text2{
+  margin:20px 20px 30px 0px;
+
+  color:#fff;
+  font-size: 50px;
+  text-align: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.text3{
+  margin:5px 10px 5px -140px;
+  text-align: left;
+  color:#c0bdbdd8;
+  font-size: 20px;
+  text-align: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.text4{
+    margin:0px 10px 50px -120px;
+    text-align: left;
+    color:#c0bdbdd8;
+    font-size: 20px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+  
+}
+.left{
+  width:60%;
+
+}
+.left_content{
+  width:90%;
+}
+.report_content{
+  margin-top:20px;
+  padding: 20px;
+  height:650px;
+  width:950px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+    border-image: linear-gradient(140deg,#19829cd7 ,#d63737be );
+    border-image-slice: 1;
+    box-shadow: 0 10px 20px rgba(175, 36, 66, 0.397);
+
+
+}
+.lebel_content{
+  color:#fff;
+  font-size: 18px;
+  text-align: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.field{
+  width:100%;
+  padding:10px 10px 5px 25px;
+
+}
+.inputBox{
+  position: relative;
+  
+}
+.right{
+width:40%;
+}
+.img_report{
+  align-items: top;
+  margin: 20px 20px 20px 0;
+  width:90%;
+  height:auto;
+  margin-bottom: 40px;
+
+}
+.input{
+  width:100%;
+  padding: 10px;
+  outline: 0;
+  border: 1px solid #947b53b4;
+  color:aliceblue;
+  background: transparent;
+  font-size: 15px;
+}
+.lebel_content{
+  height:100%;
+  position: absolute;
+  left:0;
+  top:0;
+  padding: 10px;
+  color:#cecccc;
+  cursor: text;
+  transition: 0.2s;
+}
+
+.report_icon{
+  display: inline-block;
+    color:#cc4e5c;
+    margin:0px 2px 0 10px;
+    font-size: 16px;
+
+}
+
+.input:focus ~ .lebel_content,
+.input:valid ~ .lebel_content
+
+{
+
+  top:-32px;
+  font-size: 15px;
+  background: transparent;
+}
+
+.form_button_div_design1{
+  width: 100%;
+  display: flex;
+  padding: 10 0 10 0;
+  }
+
+  
+  .button_area{
+    width:70%;
+    margin: 0 0 15px 15%;
+    position: relative;
+    color:#d46565e0;
+    outline: none;
+    background: transparent;
+    border: 1px solid #d46565e0;
+    border-radius: 2px;
+
+    cursor: pointer;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+  
+    
+    transition: all 0.7s ;
+  
+  
+  }
+  
+.button_area::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    border-radius: 2px;
+    color:rgba(219, 118, 118, 0.993);
+    background:  linear-gradient(to right, #dd939391, #8a1b1b88);
+    border: 1px solid #a85151c4;
+    z-index: -1;
+    transition: transform .4s ease;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+  }
+  
+  .button_area:hover::before {
+    border: 1px solid #a84f4fc4;
+
+    color:#c4c4c4;
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }

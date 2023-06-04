@@ -1,0 +1,104 @@
+////////////////// ADMIN ///////////////////
+
+insertadmin
+-------------------
+
+    "Uname":"Dipa",
+    "FirstName":"Dipanwita",
+    "LastName":"Saha",
+    "Email":"dipa@gmail.ddd",
+    "Password":"ABCDabcd1234#",
+    "MobileNo":"0473380003",
+    "ProfilePicture":" ",
+    "Gender":"Female"  
+
+log in
+-------------
+
+"Uname":"dipa",
+    "Password":"ABCDabcd1234#" 
+
+    
+
+insertofficer
+------------------
+ 
+ "Uname":"kawa",
+    "FirstName":"Kaushik",
+    "LastName":"Biswas",
+    "Email":"kb@gmail.ddd",
+    "Password":"AN#ww1234",
+    "MobileNo":"03958695966",
+    "ProfilePicture":" ",
+    "Gender":"Male",
+    "Designation":"Cashier",
+    "EmployeeId":"E-987654"
+
+insertcops
+-------------
+  "Uname":"adi",
+    "FirstName":"Adiba",
+    "LastName":"Dash",
+    "Email":"d@gmail.ddd",
+    "Password":"AN#ww1234",
+    "MobileNo":"018976537480",
+    "ProfilePicture":" ",
+    "Gender":"Female",
+    "RankCategory":"Heffad",
+    "RankGroup":"Alpha",
+    "Station":"kkkjjknkj",
+    "PoliceId":"12-456789-2",
+    "Country":"Bangladesh",
+   "officer":5
+
+
+insertowner
+--------------
+
+   "Uname":"Adib",
+    "FirstName":"Adiba",
+    "LastName":"Paji",
+    "Email":"ap@gmail.ddd",
+    "Password":"AN#ww1234",
+    "MobileNo":"018976537480",
+    "ProfilePicture":" ",
+    "Gender":"Female",
+    "DLN":"abnh7889",
+    "VLN":"anbcgd65678",
+    "AccountNo":"78667SJNJJHFJ",
+    "Status":"ACTIVE"
+
+report
+-------------
+   
+    "Uname":"Kaushik",
+    "Details":"Onek vulll",
+    "Email":"kb@gmail.ddd",
+
+insert vli
+-------------
+
+ "LicenseNo":"AD-2209-C",
+    "ChesisNo":"NNBVGFDHSYTENCZKL",
+    "EngineNo":"8998SJJ",
+    "Details":"Blue car",
+    "OwnerName":"Lara",
+    "OwnerNid":"0987654376898",
+   "officer":5
+
+
+insert case
+---------------
+"AccusedUname":"Maria",
+    "CopsUname":"adi",
+    "ViolationOf":"car crash",
+    "ViolationDetails":"",
+    "Section":"medium",
+    "SubSection":"",
+    "VLN":"LL-2219-C",
+    "PenaltyAmount":300,
+    "PenaltyDetails":"",
+    "City":"Dhaka",
+    "Street":"",
+    "ZIPCode":"1213"
+
