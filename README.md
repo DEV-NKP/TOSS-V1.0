@@ -149,18 +149,18 @@ Now a days we can see there are a lot of vehicles continuously running on the ro
 	    Email	: niloykantipaul@gmail.com
 	    LinkedIn	: https://www.linkedin.com/in/niloy-kanti-paul-5543181ab/
 	    Github	: https://github.com/DEV-NKP
-
-	 2. Kaushik Biswas
+	    
+	 2. Dipanwita Saha
+            Email	: dipanwitasaha7009@gmail.com
+	    LinkedIn	: https://www.linkedin.com/in/dipanwita-saha-a772aa215/
+	    Github	: https://github.com/Dipanwita-Saha
+	    
+	 3. Kaushik Biswas
 	    Email	: biswaskaushik.2020@gmail.com
 	    LinkedIn	: https://www.linkedin.com/in/kaushik-biswas-2b6554243/
 	    Github	: https://github.com/Kaushik-Biswas
-
-	 3. Dipanwita Saha
-            Email	: dipanwitasaha7009@gmail.com
-	    LinkedIn	: https://www.linkedin.com/in/dipanwita-saha-a772aa215/
-	    Github	: https://github.com/Dipanwita-Saha+
          
-	 3. Fahim Hasan Nilay
+	 4. Fahim Hasan Nilay
             Email	: 
 	    LinkedIn	: https://www.linkedin.com/in/fahim-n-28809b113/
 	    Github	: https://github.com/Fahim-Nilay
@@ -210,7 +210,7 @@ Now a days we can see there are a lot of vehicles continuously running on the ro
 ![PENDING_CASE!](README_IMAGE/pending_case.png)![PREVIOUS_CASE!](README_IMAGE/previous_case.png)
 
 > Account details is shown in a structured way to give best view to users.
-![ACCOUNT!](README_IMAGE/account.jpg)
+![ACCOUNT!](README_IMAGE/account.png)
 
 > Report any harassment.
 ![REPORT!](README_IMAGE/report.png)
